@@ -1,0 +1,48 @@
+.auth {
+    height: 12rem;
+    width: 50%;
+    /* background-color: rgb(202, 112, 112); */
+    text-align: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 54px 55px, rgba(150, 149, 149, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.auth div {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.auth button {
+    padding: .5rem 2rem;
+    border: none;
+    font-size: 1.5rem;
+    font-family: inherit;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    box-shadow: rgba(249, 250, 252, 0.4) 0px 0px 0px 2px, rgba(244, 245, 245, 0.35) 0px 4px 6px -7px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: inherit;
+    color: white;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+.auth button:hover {
+    color: orangered;
+    box-shadow: rgba(255, 69, 0, 0.4) 0px 0px 0px 2px, rgba(255, 69, 0, 0.35) 0px 4px 6px -7px, rgba(255, 69, 0, 0.08) 0px 1px 0px inset;
+    background-color: inherit;
+}
